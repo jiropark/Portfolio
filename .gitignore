@@ -1,0 +1,11 @@
+node_modules/
+output/
+Cluade/
+*.py
+make_pdf.js
+package-lock.json
+package.json
+경력기술서_박지로.txt
+이력서_박지로.txt
+portfolio.pdf
+diagrams/mirm_ui_clip.mp4
