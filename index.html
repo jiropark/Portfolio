@@ -400,7 +400,7 @@ footer strong { color: var(--muted); }
 
 <header>
   <div class="header-title">박지로</div>
-  <div class="header-sub">Game Client Programmer — UE5 / UE4 / Unity · 13년</div>
+  <div class="header-sub">Game Client Programmer · Unreal Engine 5 / 4 · Unity · 13년 경력</div>
   <div class="header-meta">
     <span><strong>재직중</strong> WemadeM</span>
     <span><strong>연락처</strong> 010-9990-2599</span>
@@ -484,9 +484,10 @@ footer strong { color: var(--muted); }
     </div>
     <div class="card-body">
       <p style="color:var(--muted);margin-bottom:24px;font-size:14px;">
-        현재 개발 중인 UE5 ARPG. 이전 프로젝트에서 쌓인 구조 문제들을 해결하려고 아키텍처부터 새로 설계했다.
-        Host는 UE 물리만 맡고 게임 로직은 전부 Composer로 넘기는 방식이라, 모듈 하나 건드려도 다른 곳이 안 터진다.
-        모듈 간 통신은 전부 GameplayMessageSubsystem 경유 — 직접 include를 금지했더니 코드 구조가 확실히 정리됐다.
+        현재 개발 중인 UE5 ARPG 프로젝트입니다. 기존 프로젝트에서 경험한 구조적 문제들을 해결하기 위해
+        Host / Composer / FSM Runtime / Module+Blackboard의 4계층 아키텍처를 직접 설계하여 적용하였습니다.
+        GameplayMessageSubsystem 기반의 메시지 버스를 통해 모듈 간 직접 의존성을 제거하고,
+        각 계층의 책임 범위를 명확히 분리하여 유지보수성을 높였습니다.
       </p>
 
       <div style="margin-bottom:20px;">
@@ -1019,8 +1020,9 @@ class IManagerBase {
     </div>
     <div class="card-body">
       <p style="color:var(--muted);margin-bottom:24px;font-size:14px;">
-        첫 상업 프로젝트. Wemade 자회사 바나나피쉬에서 만든 모바일 비행 슈팅 멀티플레이어 게임이다.
-        ProudNet RMI 연동, Android JNI 브리지, 다국어 시스템까지 클라이언트 전반을 담당했다.
+        Wemade 자회사 바나나피쉬에서 개발한 모바일 비행 슈팅 멀티플레이어 게임으로, 첫 상업 프로젝트입니다.
+        ProudNet RMI 기반 네트워크 연동부터 Android JNI 네이티브 브리지, 다국어 현지화 시스템까지
+        클라이언트 전반을 담당하였습니다.
       </p>
 
       <div class="card-body-grid">
