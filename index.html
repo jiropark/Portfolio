@@ -25,7 +25,7 @@ body {
   background: var(--dark);
   color: var(--text);
   font-family: 'Segoe UI', 'Apple SD Gothic Neo', sans-serif;
-  font-size: 15px;
+  font-size: 19px;
   line-height: 1.7;
 }
 nav {
@@ -44,14 +44,14 @@ nav {
 nav a {
   color: var(--muted);
   text-decoration: none;
-  font-size: 13px;
+  font-size: 15px;
   padding: 6px 12px;
   border-radius: 4px;
   transition: all 0.2s;
   white-space: nowrap;
 }
 nav a:hover { color: var(--gold); background: var(--gold-dim); }
-nav .nav-name { color: var(--gold); font-weight: 700; margin-right: 16px; font-size: 14px; }
+nav .nav-name { color: var(--gold); font-weight: 700; margin-right: 16px; font-size: 16px; }
 .container { max-width: 1100px; margin: 0 auto; padding: 0 40px; }
 section { padding: 80px 0; border-bottom: 1px solid var(--border); }
 section:last-child { border-bottom: none; }
@@ -61,7 +61,7 @@ header {
   margin: 0 auto;
 }
 .header-title {
-  font-size: 44px;
+  font-size: 54px;
   font-weight: 800;
   color: #fff;
   letter-spacing: -1px;
@@ -69,7 +69,7 @@ header {
 }
 .header-title span { color: var(--gold); }
 .header-sub {
-  font-size: 18px;
+  font-size: 22px;
   color: var(--muted);
   margin-top: 12px;
   letter-spacing: 0.5px;
@@ -81,7 +81,7 @@ header {
   flex-wrap: wrap;
 }
 .header-meta span {
-  font-size: 13px;
+  font-size: 15px;
   color: var(--dim);
   display: flex;
   align-items: center;
@@ -89,7 +89,7 @@ header {
 }
 .header-meta strong { color: var(--muted); }
 .sec-label {
-  font-size: 11px;
+  font-size: 13px;
   letter-spacing: 3px;
   color: var(--gold);
   text-transform: uppercase;
@@ -97,7 +97,7 @@ header {
   font-weight: 600;
 }
 .sec-title {
-  font-size: 30px;
+  font-size: 38px;
   font-weight: 800;
   color: #fff;
   line-height: 1.2;
@@ -123,7 +123,7 @@ header {
   padding: 20px 22px;
 }
 .skill-group-label {
-  font-size: 11px;
+  font-size: 14px;
   letter-spacing: 2px;
   color: var(--gold);
   text-transform: uppercase;
@@ -137,7 +137,7 @@ header {
   border: 1px solid var(--gold-mid);
   border-radius: 4px;
   padding: 4px 10px;
-  font-size: 12px;
+  font-size: 14px;
   font-family: Consolas, monospace;
 }
 .tag.primary { color: var(--gold); border-color: var(--gold); background: rgba(184,146,74,0.1); }
@@ -163,7 +163,7 @@ header {
 }
 .card-badge {
   display: inline-block;
-  font-size: 10px;
+  font-size: 12px;
   letter-spacing: 2px;
   padding: 3px 10px;
   border-radius: 3px;
@@ -174,16 +174,16 @@ header {
 .badge-featured { background: rgba(220,220,170,0.1); color: var(--gold); border: 1px solid var(--gold-mid); }
 .badge-current { background: rgba(78,201,176,0.1); color: var(--green); border: 1px solid rgba(78,201,176,0.3); }
 .project-name {
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 800;
   color: #fff;
   line-height: 1.2;
 }
 .project-name span { color: var(--gold); }
-.project-sub { font-size: 14px; color: var(--muted); margin-top: 6px; }
+.project-sub { font-size: 16px; color: var(--muted); margin-top: 6px; }
 .card-meta {
   text-align: right;
-  font-size: 13px;
+  font-size: 15px;
   color: var(--dim);
   line-height: 1.8;
 }
@@ -199,7 +199,7 @@ header {
 .feature-list li {
   padding: 10px 0;
   border-bottom: 1px solid rgba(255,255,255,0.04);
-  font-size: 14px;
+  font-size: 18px;
   display: flex;
   gap: 10px;
   align-items: flex-start;
@@ -208,7 +208,7 @@ header {
 .feature-list li::before {
   content: '\25B8';
   color: var(--gold);
-  font-size: 11px;
+  font-size: 13px;
   margin-top: 3px;
   flex-shrink: 0;
 }
@@ -220,7 +220,7 @@ header {
   border-radius: 0 6px 6px 0;
   padding: 16px 18px;
   font-family: Consolas, 'Courier New', monospace;
-  font-size: 12.5px;
+  font-size: 15px;
   line-height: 1.7;
   color: #c8d8f0;
   white-space: pre;
@@ -236,7 +236,7 @@ header {
   margin: 20px 0;
 }
 .svg-diagram-title {
-  font-size: 12px;
+  font-size: 14px;
   color: var(--dim);
   padding: 10px 16px;
   border-bottom: 1px solid var(--border);
@@ -252,7 +252,7 @@ header {
   background: #000;
 }
 .video-label {
-  font-size: 11px;
+  font-size: 13px;
   letter-spacing: 1.5px;
   color: var(--dim);
   padding: 10px 16px;
@@ -311,16 +311,16 @@ video {
   border: 2px solid var(--dark);
   box-shadow: 0 0 8px rgba(86,156,214,0.4);
 }
-.timeline-period { font-size: 12px; color: var(--dim); font-family: Consolas, monospace; margin-bottom: 4px; }
-.timeline-company { font-size: 18px; font-weight: 700; color: #fff; }
-.timeline-project { font-size: 14px; color: var(--gold); margin-top: 4px; }
-.timeline-desc { font-size: 13px; color: var(--muted); margin-top: 8px; line-height: 1.6; }
+.timeline-period { font-size: 14px; color: var(--dim); font-family: Consolas, monospace; margin-bottom: 4px; }
+.timeline-company { font-size: 22px; font-weight: 700; color: #fff; }
+.timeline-project { font-size: 16px; color: var(--gold); margin-top: 4px; }
+.timeline-desc { font-size: 17px; color: var(--muted); margin-top: 8px; line-height: 1.6; }
 footer {
   padding: 48px 40px;
   text-align: center;
   border-top: 1px solid var(--border);
   color: var(--dim);
-  font-size: 13px;
+  font-size: 15px;
 }
 footer strong { color: var(--muted); }
 .diagram-row {
@@ -346,21 +346,21 @@ footer strong { color: var(--muted); }
 }
 .stat-item:last-child { border-right: none; }
 .stat-num {
-  font-size: 32px;
+  font-size: 40px;
   font-weight: 800;
   color: var(--gold);
   line-height: 1;
   font-family: Consolas, monospace;
 }
 .stat-label {
-  font-size: 11px;
+  font-size: 13px;
   color: var(--dim);
   margin-top: 6px;
   letter-spacing: 0.5px;
 }
 /* SECTION NUMBERS */
 .sec-num {
-  font-size: 11px;
+  font-size: 13px;
   color: var(--gold);
   font-family: Consolas, monospace;
   letter-spacing: 2px;
@@ -483,7 +483,7 @@ footer strong { color: var(--muted); }
       </div>
     </div>
     <div class="card-body">
-      <p style="color:var(--muted);margin-bottom:24px;font-size:14px;">
+      <p style="color:var(--muted);margin-bottom:24px;font-size:18px;">
         현재 개발 중인 UE5 ARPG 프로젝트입니다. 기존 프로젝트에서 경험한 구조적 문제들을 해결하기 위해
         Host / Composer / FSM Runtime / Module+Blackboard의 4계층 아키텍처를 직접 설계하여 적용하였습니다.
         GameplayMessageSubsystem 기반의 메시지 버스를 통해 모듈 간 직접 의존성을 제거하고,
@@ -637,7 +637,7 @@ footer strong { color: var(--muted); }
 
       <div class="card-body-grid" style="margin-top:28px;">
         <div>
-          <div style="color:var(--gold);font-size:13px;font-weight:700;margin-bottom:14px;letter-spacing:1px;">설계 원칙</div>
+          <div style="color:var(--gold);font-size:15px;font-weight:700;margin-bottom:14px;letter-spacing:1px;">설계 원칙</div>
           <ul class="feature-list">
             <li><strong>P2</strong> <span>모듈 간 직접 include 금지 — 모든 통신은 GameplayMessageSubsystem 경유</span></li>
             <li><strong>P7</strong> <span>Messaging 구독(RegisterListener)은 반드시 Composer의 Wire()에서만</span></li>
@@ -647,7 +647,7 @@ footer strong { color: var(--muted); }
           </ul>
         </div>
         <div>
-          <div style="color:var(--gold);font-size:13px;font-weight:700;margin-bottom:14px;letter-spacing:1px;">구현 규모</div>
+          <div style="color:var(--gold);font-size:15px;font-weight:700;margin-bottom:14px;letter-spacing:1px;">구현 규모</div>
           <ul class="feature-list">
             <li><span>PlayerComposer: <strong>모듈 20개</strong>, Messaging 핸들 41개</span></li>
             <li><span>MonsterComposer: 모듈 3개 (CombatTarget / Movement / Animation)</span></li>
@@ -854,7 +854,7 @@ footer strong { color: var(--muted); }
       </div>
 
       <div style="margin-top:24px;">
-        <div style="color:var(--gold);font-size:13px;font-weight:700;margin-bottom:12px;letter-spacing:1px;">IManagerBase 인터페이스</div>
+        <div style="color:var(--gold);font-size:15px;font-weight:700;margin-bottom:12px;letter-spacing:1px;">IManagerBase 인터페이스</div>
         <div class="code-block"><span class="code-comment">// 전체 26개 매니저가 구현하는 생명주기 인터페이스</span>
 class IManagerBase {
     virtual void OnInit() = 0;           <span class="code-comment">// GameInstance::Init</span>
@@ -869,7 +869,7 @@ class IManagerBase {
 
       <div class="card-body-grid" style="margin-top:24px;">
         <div>
-          <div style="color:var(--gold);font-size:13px;font-weight:700;margin-bottom:14px;">주요 작업</div>
+          <div style="color:var(--gold);font-size:15px;font-weight:700;margin-bottom:14px;">주요 작업</div>
           <ul class="feature-list">
             <li><strong>IManagerBase 프레임워크</strong> <span>26개 매니저 생명주기 통합 — GameInstance에서 일괄 관리</span></li>
             <li><strong>UI 시스템</strong> <span>Window/Page/Prefab 3계층 구조 설계 — 테이블 ID 기반 동적 스폰</span></li>
@@ -878,7 +878,7 @@ class IManagerBase {
           </ul>
         </div>
         <div>
-          <div style="color:var(--gold);font-size:13px;font-weight:700;margin-bottom:14px;">기술 특징</div>
+          <div style="color:var(--gold);font-size:15px;font-weight:700;margin-bottom:14px;">기술 특징</div>
           <ul class="feature-list">
             <li><span>TScriptInterface&lt;IManagerBase&gt; 배열로 타입 안전한 다형 관리</span></li>
             <li><span>클라이언트 틱(OnUpdate) / 서버 틱(OnServerUpdate) 분리</span></li>
@@ -894,7 +894,7 @@ class IManagerBase {
 
 <div class="container">
 <section id="mirm">
-<div class="sec-label">WemadeM · 2018 — 2024</div>
+  <div class="sec-label">WemadeM · 2018 — 2024</div>
   <div class="sec-title"><span>MIR M</span> — UE4 MMORPG</div>
   <div class="sec-divider"></div>
 
@@ -912,6 +912,22 @@ class IManagerBase {
       </div>
     </div>
     <div class="card-body">
+      <p style="margin:0 0 18px 0;color:var(--muted);">
+        2018년부터 2024년까지 6년간 WemadeM에서 MIR M 클라이언트 라이브 서비스를 담당했습니다. UE4 기반 모바일 MMORPG로, 한국·중국·글로벌 동시 서비스와 WEMIX NFT 연동을 포함한 대규모 컨텐츠를 다년간 유지보수·확장했습니다.
+      </p>
+
+      <div style="margin:0 0 20px 0;">
+        <span class="tag">UE4</span>
+        <span class="tag">C++</span>
+        <span class="tag">MMORPG</span>
+        <span class="tag">UMG</span>
+        <span class="tag">UnLua</span>
+        <span class="tag">Async Resource Loading</span>
+        <span class="tag">WEMIX / NFT</span>
+        <span class="tag">Android / JNI</span>
+        <span class="tag">Live Service</span>
+      </div>
+
       <div class="screenshot-grid">
         <img src="diagrams/mirm_screenshots/image17.png" alt="MIR M 만달라">
         <img src="diagrams/mirm_screenshots/image4.png" alt="MIR M 장비강화">
@@ -921,9 +937,24 @@ class IManagerBase {
         <img src="diagrams/mirm_screenshots/image9.png" alt="MIR M 령수">
       </div>
 
-      <div class="card-body-grid" style="margin-top:24px;">
+      <div style="margin-top:28px;">
+        <div style="color:var(--gold);font-size:15px;font-weight:700;margin-bottom:14px;">주요 시스템 기여</div>
+        <ul class="feature-list">
+          <li><strong>MessageSubsystem (메시지 라우팅)</strong> <span>600+ 서버 패킷 핸들러를 단일 디스패처로 통합 · 재접속·하트비트·세션 인증·압축/암호화 키 협상까지 네트워크 계층 단일 진입점에서 처리</span></li>
+          <li><strong>ManagerBase (매니저 프레임워크)</strong> <span>64+ 도메인 매니저(컨텐츠·UI·결제·길드·던전 등)의 통일된 라이프사이클(Init · Start · PreLoadLevel · LoadComplete · Update · Pause · Logout) 운영</span></li>
+          <li><strong>리소스 캐시 5단계 언로드 정책</strong> <span>PROJECT / MYPLAYER / LEVEL / LEVEL_EVENT / EVENT 단계별로 캐시 키 분리 — 캐릭터 교체·맵 이동·이벤트 종료 시 정밀 해제로 모바일 메모리 압박 대응</span></li>
+          <li><strong>UI 프레임워크</strong> <span>70+ UMG 윈도우와 Lua 페이지(MirLuaPage) 혼합 구조 위에서 WindowManager가 라이프사이클 통합 관리 · 비전투 UI를 UnLua 스크립트로 데이터 주도화</span></li>
+          <li><strong>알람(레드닷) 시스템</strong> <span>56종 AlarmChecker + IRedDotProvider BlueprintNativeEvent 인터페이스 — C++/Blueprint/Lua 어디서든 알람 로직 구현 가능한 확장 구조</span></li>
+          <li><strong>ObjectTrigger 프레임워크</strong> <span>게이트·텔레포트·수집·낚시·시네마틱·다이얼로그 등 20여 종 월드 인터랙션 트리거를 ObjectTriggerManager가 통합 관리</span></li>
+          <li><strong>SaveDataManager</strong> <span>캐릭터별 스킬 프리셋(3×16) · 퀵슬롯(3×5) · 포션 우선순위 · 텔레포트 즐겨찾기 · 버프 아이템 등 클라이언트 저장 데이터 운영</span></li>
+          <li><strong>MirLogManager</strong> <span>50+ 도메인 카테고리 로깅(네트워크·UI·콤보·길드전·셀무브·시스템토스트 등) + JSON 로그 출력 지원</span></li>
+          <li><strong>결제/플랫폼 통합</strong> <span>PaymentSubsystem · PayOrderSubsystem · PlatformManager로 위믹스·도그마·인앱·쿠폰·가챠 한도·광고 보상 등 멀티 결제 채널 처리</span></li>
+        </ul>
+      </div>
+
+      <div class="card-body-grid" style="margin-top:28px;">
         <div>
-          <div style="color:var(--gold);font-size:13px;font-weight:700;margin-bottom:14px;">주요 작업</div>
+          <div style="color:var(--gold);font-size:15px;font-weight:700;margin-bottom:14px;">주요 작업</div>
           <ul class="feature-list">
             <li><strong>WEMIX NFT 연동</strong> <span>블록체인 지갑 · 거래 시스템 클라이언트 구현</span></li>
             <li><strong>중국 현지화</strong> <span>텍스트 · UI · 규제 대응 · 서버 분리 대응</span></li>
@@ -933,7 +964,7 @@ class IManagerBase {
           </ul>
         </div>
         <div>
-          <div style="color:var(--gold);font-size:13px;font-weight:700;margin-bottom:14px;">기간 중 성과</div>
+          <div style="color:var(--gold);font-size:15px;font-weight:700;margin-bottom:14px;">기간 중 성과</div>
           <ul class="feature-list">
             <li><span>6년간 대규모 MMORPG 라이브 서비스 — 장기 코드베이스 유지보수 경험</span></li>
             <li><span>대규모 MMORPG 서버-클라이언트 구조 심층 이해</span></li>
@@ -977,7 +1008,7 @@ class IManagerBase {
 
       <div class="card-body-grid" style="margin-top:24px;">
         <div>
-          <div style="color:var(--gold);font-size:13px;font-weight:700;margin-bottom:14px;">주요 작업</div>
+          <div style="color:var(--gold);font-size:15px;font-weight:700;margin-bottom:14px;">주요 작업</div>
           <ul class="feature-list">
             <li><strong>PageManager</strong> <span>씬 전환 · UI 페이지 스택 관리</span></li>
             <li><strong>UIManager</strong> <span>팝업 · HUD · 인게임 UI 통합 관리</span></li>
@@ -986,7 +1017,7 @@ class IManagerBase {
           </ul>
         </div>
         <div>
-          <div style="color:var(--gold);font-size:13px;font-weight:700;margin-bottom:14px;">특징</div>
+          <div style="color:var(--gold);font-size:15px;font-weight:700;margin-bottom:14px;">특징</div>
           <ul class="feature-list">
             <li><span>소규모 팀 — 광범위한 기능 단독 담당 경험</span></li>
             <li><span>Unity UGUI 기반 UI 시스템 설계</span></li>
@@ -1019,7 +1050,7 @@ class IManagerBase {
       </div>
     </div>
     <div class="card-body">
-      <p style="color:var(--muted);margin-bottom:24px;font-size:14px;">
+      <p style="color:var(--muted);margin-bottom:24px;font-size:18px;">
         Wemade 자회사 바나나피쉬에서 개발한 모바일 비행 슈팅 멀티플레이어 게임으로, 첫 상업 프로젝트입니다.
         ProudNet RMI 기반 네트워크 연동부터 Android JNI 네이티브 브리지, 다국어 현지화 시스템까지
         클라이언트 전반을 담당하였습니다.
@@ -1027,7 +1058,7 @@ class IManagerBase {
 
       <div class="card-body-grid">
         <div>
-          <div style="color:var(--gold);font-size:13px;font-weight:700;margin-bottom:14px;">핵심 구현</div>
+          <div style="color:var(--gold);font-size:15px;font-weight:700;margin-bottom:14px;">핵심 구현</div>
           <ul class="feature-list">
             <li><strong>ProudNet RMI</strong> <span>클라이언트-서버 RMI 기반 멀티플레이어 네트워크 구현</span></li>
             <li><strong>AirCraft 컴포넌트</strong> <span>비행기 조작 · 무장 · 피격 판정 컴포넌트 구조 설계</span></li>
@@ -1036,7 +1067,7 @@ class IManagerBase {
           </ul>
         </div>
         <div>
-          <div style="color:var(--gold);font-size:13px;font-weight:700;margin-bottom:14px;">기술 스택</div>
+          <div style="color:var(--gold);font-size:15px;font-weight:700;margin-bottom:14px;">기술 스택</div>
           <div class="code-block"><span class="code-comment">// ProudNet RMI 기반 패킷 처리</span>
 void OnRecv_AircraftHit(
     ProudNet::RmiContext&amp; ctx,
